@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title hello world
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        img(src="/images/1.jpg" style="width:100%;height:100%;") 
+
+      section(data-bespoke-hash='basic-info')
+        h2 基本信息
+        br
+        br
+        br
+        #info_left
+          h3 姓名：XXX
+          h3 出生年月：XXX
+          h3 邮箱：XXX
+          h3 联系电话：XXX
+
+      section(data-bespoke-state="all-black")
+        h2 学习经历
+        br
+        br
+        br
+        ul
+          li 2004-2007 XXX高中。。。
+          li 2007-2011 XXX大学。。。
+          li 2011-2014 XXX大学。。。
+
+      section
+        h2 工作经历
+        br
+        br
+        br
+        ul
+          li 时间 地点  内容。。。
+          li 时间 地点  内容。。。
+
+      section(data-bespoke-hash='named-route')
+        h2 个人简介
+        br
+        br
+        br
+        p 介绍自己。。。
+
+      section
+        h2 Thank you!
+        br
+        br
+        ul
+          li
+            strong Enjoy! :) contact me 
+            a(href='http://github.com/hsh075623201')  -@hsh075623201
+
+    script(src='build/build.js')

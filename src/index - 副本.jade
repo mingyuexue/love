@@ -1,0 +1,80 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title hello world
+
+    link(rel='stylesheet', type='text/css', href='http://mcollina.github.io/mqtt_and_nodejs/styles/styles.css')
+
+  body
+
+    article
+
+      section
+        h2 黄思浩
+        br
+        br
+        br
+        h3 键盘箭头左右切换，同时支持触屏！
+
+      section
+        h2 基本信息
+        br
+        br
+        br
+        h3 姓名：XXX
+        h3 出生年月：XXX
+        h3 邮箱：XXX
+        h3 联系电话：XXX
+
+      section
+        h2 学习经历
+        br
+        br
+        br
+        ul
+          li 2004-2007 XXX高中。。。
+          li 2007-2011 XXX大学。。。
+          li 2011-2014 XXX大学。。。
+
+      section
+        h2 工作经历
+        br
+        br
+        br
+        ul
+          li 时间 地点  内容。。。
+          li 时间 地点  内容。。。
+
+      section
+        h2 Syntax Highlighting
+        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+        pre
+          code.language-javascript.
+            bespoke.from('article', [
+              classes(),
+              keys(),
+              touch(),
+              bullets('li, .bullet')
+            ]);
+
+      section(data-bespoke-hash='named-route')
+        h2 Named Route
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
+        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 Emphatic Slide!
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+
+      section
+        h2.bullet Just the beginning...
+        br
+        br
+        ul
+          li
+            strong Enjoy! :)
+            a(href='http://github.com/h')  -@hsh075623201
+
+    script(src='http://mcollina.github.io/mqtt_and_nodejs/scripts/scripts.js')
